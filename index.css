@@ -1,0 +1,144 @@
+/* ESTRUCTURA */
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(fondoG1.jpg); /* Reemplaza 'background.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+}
+
+/* Estilos para la cabecera */
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para el contenido de portada */
+.portada {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+    color: #fff;
+    text-align: center;
+}
+
+/* Estilos para el pie de navegación */
+footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* ESTRUCTURA */
+
+/* PREGUNTAS FRECUENTES */
+/* Estilos para la barra de navegación utilizando Flexbox */
+nav {
+    background-color: #333; /* Color de fondo */
+    padding: 10px 0; /* Espacio interno superior e inferior */
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+nav ul li {
+    margin-right: 20px; /* Espacio entre elementos */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Elimina el margen del último elemento */
+}
+
+nav ul li a {
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    padding: 10px 20px; /* Espacio interno izquierdo y derecho */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Cambia el color de fondo al pasar el cursor */
+}
+/* NAVEGACION */
+
+/* PREGUNTAS FRECUENTES */
+.Cpreguntas1,
+.Cpreguntas2 {
+    flex: 1;
+    width: 500px;
+    height: 600px;
+    border: 2px solid white;
+    border-radius: 25px;
+    position: relative;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    padding: 20px; /* Agrega relleno al contenido */
+}
+
+
+.Cpreguntas1 {
+    margin-right: 20px; /* Espacio entre los contenedores */
+}
+
+.Cpreguntas2 {
+    margin-right: 0; /* Elimina el margen derecho del último elemento */
+}
+
+.preguntas-frecuentes h2 {
+    text-align: center; /* Centra el texto */
+}
+/* Estilos para la sección de preguntas frecuentes */
+.preguntas-frecuentes {
+    color: #fff;
+    padding: 20px;
+display: flex;
+}
+
+/* Estilos para las preguntas */
+.pregunta {
+    margin-bottom: 20px;
+}
+
+.pregunta h3 {
+    font-size: 18px;
+    color: #fff;
+}
+
+.pregunta p {
+    font-size: 16px;
+    color: #fff;
+}
+
+/* PREGUNTAS FRECUENTES */
