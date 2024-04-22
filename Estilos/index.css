@@ -5,7 +5,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(fondoG1.jpg); /* Reemplaza 'background.jpg' con la ruta de tu imagen de fondo */
+    background-image: url(/Fondos/fondoG1.jpg); /* Reemplaza 'background.jpg' con la ruta de tu imagen de fondo */
     background-size: cover;
     background-position: center;
 }
@@ -58,6 +58,27 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+footer ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0; /* Quita el espacio alrededor de la lista */
+}
+
+footer ul li {
+    display: inline; /* Coloca los elementos en línea */
+    margin-right: 10px; /* Espacio entre los elementos */
+}
+
+footer ul li a {
+    color: #fff; /* Color de los enlaces */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+}
+
+footer ul li a:hover {
+    text-decoration: underline; /* Subraya los enlaces al pasar el ratón */
+}
+
+
 /* ESTRUCTURA */
 
 /* PREGUNTAS FRECUENTES */
