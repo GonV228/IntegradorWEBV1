@@ -8,15 +8,64 @@ body {
     background-image: url(/Fondos/fondoG1.jpg); /* Reemplaza 'background.jpg' con la ruta de tu imagen de fondo */
     background-size: cover;
     background-position: center;
+    cursor:url(minecraft.png), auto;
 }
 
 /* Estilos para la cabecera */
+/* Estilos para el header */
+/* Estilos para el header */
+/* Estilos generales */
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el header */
 header {
-    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente */
+    background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Estilos para el h1 */
+header h1 {
+    margin: 0;
+    flex: 1;
     text-align: center;
 }
+
+/* Estilos para el enlace (botón) */
+header a.boton {
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+/* Cambio de color cuando se pasa el mouse sobre el enlace (botón) */
+header a.boton:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Estilos para el label dentro del enlace (botón) */
+header a.boton label {
+    margin-right: 5px;
+}
+
+/* Estilos para el ícono dentro del enlace (botón) (asumiendo que estás usando FontAwesome) */
+header a.boton .fa-gamepad {
+    margin-left: 5px;
+}
+
+
 
 /* Estilos para la barra de navegación */
 nav {

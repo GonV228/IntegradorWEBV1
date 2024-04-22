@@ -3,15 +3,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-
 }
 
-
 .contenedor {
-    width: 80%;
+    width: 800px;
     margin: 50px auto;
     background-color: #fff;
-        padding: 20px;
+    padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border: 2px solid white;
@@ -23,12 +21,8 @@ body {
 
 h1, h3 {
     color: #fff;
+    text-align: center; /* Alinea el texto al centro */
 }
-.contenedorHeader h1{
-text-align: center;
-    
-}
-
 
 /* Estilos del formulario */
 .contenedor-datos {
@@ -39,14 +33,15 @@ text-align: center;
     margin-bottom: 15px;
 }
 
-label {
+.formulario-datos label {
     display: block;
     margin-bottom: 5px;
     color: #fff;
 }
 
 input[type="text"],
-textarea {
+textarea,
+input[type="submit"] {
     width: calc(100% - 20px); /* Ajuste para compensar el padding de los inputs */
     padding: 10px;
     border: 1px solid #ccc;
@@ -59,9 +54,8 @@ textarea {
 }
 
 input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
+    width: 100%; /* Ajusta el ancho del botón al 100% */
+    background-color: #bb0404;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -70,7 +64,5 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #9b0e0e;
 }
-
-

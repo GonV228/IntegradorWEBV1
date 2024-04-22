@@ -1,33 +1,32 @@
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+
 }
 
 .contenedor {
-    width: 80%;
+    width: 900px;
     margin: 50px auto;
     background-color: #fff;
     padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border: 2px solid white;
     border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     position: relative;
     background: transparent;
     backdrop-filter: blur(10px);
 }
 
-h1, h3 {
+h1 {
+    color: #fff;
+    text-align: center;
+}
+h3 {
     color: #fff;
 
 }
-h1{
-   text-align: center;
-
-}
-
 
 /* Estilos del formulario */
 .contenedor-datos,
@@ -39,8 +38,12 @@ h1{
 .formulario-info {
     margin-bottom: 15px;
 }
-
-label {
+.formulario-info label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+.formulario-datos label {
     display: block;
     margin-bottom: 5px;
     color: #fff;
@@ -48,8 +51,9 @@ label {
 
 input[type="text"],
 textarea,
-select {
-    width: 100%;
+select,
+input[type="submit"] {
+    width: calc(100% - 20px);
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -61,9 +65,7 @@ textarea {
 }
 
 input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    background-color: #007bff;
+    background-color: #bb0404;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -72,5 +74,5 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: #9b0e0e;
 }

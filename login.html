@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+       @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url('Fondos/fondoG.jpg');
+  background-size: cover; /* Esto ajusta la imagen para cubrir todo el elemento */
+  background-position: center;
+}
+
+
+        .C1{
+             width: 420px;
+             background: transparent;
+             color: #fff;
+             border:2px solid rgba(255, 255, 255,.2) ;
+             backdrop-filter:blur(20px) ;
+             box-shadow: 0 0 10px rgba(0, 0, 0, rgba(255, 255, 255, .2));
+             border-radius: 10px;
+             padding: 30px 40px;
+        }
+        .C1 h1{
+            font-size: 36px;
+            text-align: center;
+        }
+        .C1 .C2-usuario{
+            position: relative;
+            width: 100%;
+            height: 50px;
+            background-color:transparent;
+            margin: 30px 0;
+        }
+        .C2-usuario input{
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            border: none;
+            outline: none;
+            border: 2px solid rgba(255, 255, 255, .2);
+            border-radius: 40px;
+            font-size: 16px;
+            color: white;
+            padding: 20px 45px 20px 20px;
+        }
+        .C2-usuario input::placeholder{
+            color: white;
+        }
+        .C2-usuario i{
+            position:absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 20px;
+        }
+
+        .C1 .C4-recuerdame{
+            display: flex;
+            justify-content: space-between;
+            font-size: 14.5px;
+            margin: -15px 0 15px;
+        }
+        .C4-recuerdame label input{
+            accent-color: white;
+            margin-right: 3px;
+        }
+        .C4-recuerdame a{
+            color: white;
+            text-decoration: none;
+        }
+        .C4-recuerdame a:hover{
+            text-decoration: underline;
+        }
+        .C1 .btn{
+width: 100%;
+height: 45px;
+background: #fff;
+border: none;
+outline:none;
+border-radius: 40px;
+box-shadow: 0 0 10px rgba(0, 0, 0,.1);
+cursor: pointer;
+font-size: 16px;
+color: #333;
+font-weight: 600;
+        }
+        .C1 .C5-registrar{
+            font-size: 14.5px;
+            text-align: center;
+            margin: 20px 0 15px;
+        }
+        .C5-registrar p a{
+            color:#fff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .C5-registrar p a:hover {
+text-decoration: underline;
+        }
+    
+            </style>
+
+
+
+    <!--LINK para sacar las imagenes del login https://boxicons.com/usage por las dudas -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+
+    
+    <main class="CC">
+        <div class="C1">
+            <form action="conexion.php " method="post">
+                <h1>login</h1>
+                <div class="C2-usuario">
+                    <!-- placeholder muestra en el cajon de texto =Usuario cuando esta vacio
+                     required pide obligatoriamente que lo llenen-->
+                    <input type="text" placeholder="Usuario" name="Usuario" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="C2-usuario">
+                    <input type="password" placeholder="Contrasena" name="Password" required>
+                    <i class='bx bxs-lock-alt' ></i>
+                </div>
+                <div class="C4-recuerdame">
+                    <label><input type="checkbox">Recuerdame</label>
+                    <a href="#">Olvidaste tu contrasena?</a>
+                </div>
+                <button type="submit" class="btn">Iniciar Sesion</button>
+                <div class="C5-registrar">
+                    <p>¿No tienes una cuenta?
+                    <a href="RegistrarU.html">Registrarse</a></p>
+                </div>
+            </form>
+        </div>
+    </main>
+
+   
+
+</html>
